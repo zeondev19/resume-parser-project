@@ -19,7 +19,7 @@ Project ini dibuat untuk membantu recruiter/HR menyeleksi kandidat secara lebih 
 ---
 
 ## 📂 Project Structure
----
+```bash
 resume-parser-project/
 ├─ backend/ # FastAPI backend
 │ ├─ main.py # API utama
@@ -32,7 +32,7 @@ resume-parser-project/
 │ └─ ...
 ├─ .gitignore
 ├─ README.md
-
+```
 ---
 
 ## ⚙️ Requirements
