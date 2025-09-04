@@ -1,0 +1,30 @@
+# Root
+.env
+*.env
+.env.*
+
+# Logs & OS files
+logs/
+*.log
+.DS_Store
+Thumbs.db
+
+# === FRONTEND ===
+frontend/node_modules/
+frontend/.next/
+frontend/.turbo/
+frontend/.vercel/
+frontend/.env
+frontend/.env.*
+
+# === BACKEND ===
+backend/venv/
+backend/__pycache__/
+backend/.pytest_cache/
+backend/uploads/        # folder PDF hasil upload (jangan dipush)
+backend/*.sqlite3
+backend/.env
+backend/.env.*
+
+# VSCode
+.vscode/
